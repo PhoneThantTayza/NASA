@@ -1,2 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
 .DS_Store
-.claude/
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
